@@ -1,0 +1,28 @@
+{
+  "name": "neuron-dependency-tree",
+  "version": "1.0.0",
+  "description": "neuron-dependency-tree",
+  "main": "./lib",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/neuron-dependency-tree.git"
+  },
+  "keywords": [
+    "neuron-dependency-tree"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kaelzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/neuron-dependency-tree/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.13.0"
+  }
+}
